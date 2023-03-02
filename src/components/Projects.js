@@ -12,6 +12,11 @@ import projImg8 from '../assets/img/project-img8.png';
 import projImg9 from '../assets/img/project-img9.png';
 import projImg10 from '../assets/img/project-img10.png';
 import projImg11 from '../assets/img/project-img11.png';
+import projImg12 from '../assets/img/codex.png';
+import projImg13 from '../assets/img/restaurant-ui.png';
+
+
+
 
 
 
@@ -26,15 +31,15 @@ export const Projects = () => {
             link: "https://williamsgelo.github.io/gpt3",
         },
         {
-            title: "Movie UI",
+            title: "AI-BOT",
             description: "",
-            imgUrl: projImg1,
-            link: "https://williamsgelo.github.io/movieapp",
+            imgUrl: projImg12,
+            link: "https://codex-bot-iota.vercel.app/",
         },
         {
-            title: "Memory Game",
+            title: "Restaurant-UI",
             description: "",
-            imgUrl: projImg4,
+            imgUrl: projImg13,
             link: "https://williamsgelo.github.io/magic-memory",
         },
         {
@@ -56,16 +61,22 @@ export const Projects = () => {
             link: "https://williamsgelo.github.io/hacker-news",
         },
         {
-            title: "Tindog",
+            title: "Movie UI",
             description: "",
-            imgUrl: projImg8,
-            link: "https://williamsgelo.github.io/tindog-main",
+            imgUrl: projImg1,
+            link: "https://williamsgelo.github.io/movieapp",
         },
         {
             title: "Restaurant Menu",
             description: "",
             imgUrl: projImg11,
             link: "https://williamsgelo.github.io/restaurant-menu",
+        },
+        {
+            title: "Memory Game",
+            description: "",
+            imgUrl: projImg4,
+            link: "https://williamsgelo.github.io/magic-memory",
         },
         {
             title: "Quiz App",
@@ -83,7 +94,7 @@ export const Projects = () => {
                 <Row>
                     <Col size={12}>
                         <h2>Projects</h2>
-                        <p>This is projects that I have individually worked on and with some team members. All my projects use the latest web technologies and are mobile friendly with beatuful user interfaces for users to interact with.</p>
+                        <p>This is projects that I have individually worked on and with some team members.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
