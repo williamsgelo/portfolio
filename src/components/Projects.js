@@ -16,11 +16,6 @@ import projImg12 from '../assets/img/codex.png';
 import projImg13 from '../assets/img/restaurant-ui.png';
 
 
-
-
-
-
-
 export const Projects = () => {
 
     const projects = [
@@ -34,13 +29,13 @@ export const Projects = () => {
             title: "AI-BOT",
             description: "",
             imgUrl: projImg12,
-            link: "https://codex-bot-iota.vercel.app/",
+            link: "https://codex-bot-iota.vercel.app",
         },
         {
             title: "Restaurant-UI",
             description: "",
             imgUrl: projImg13,
-            link: "https://williamsgelo.github.io/magic-memory",
+            link: "https://williamsgelo.github.io/restaurant-ui",
         },
         {
             title: "Stripe Menu",
