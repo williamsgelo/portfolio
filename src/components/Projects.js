@@ -14,6 +14,8 @@ import projImg10 from '../assets/img/project-img10.png';
 import projImg11 from '../assets/img/project-img11.png';
 import projImg12 from '../assets/img/codex.png';
 import projImg13 from '../assets/img/restaurant-ui.png';
+import projImg14 from '../assets/img/bank-app1.png';
+
 
 
 export const Projects = () => {
@@ -44,10 +46,10 @@ export const Projects = () => {
             link: "https://williamsgelo.github.io/stripe-menu",
         },
         {
-            title: "Live User Filter",
+            title: "Bank App",
             description: "",
-            imgUrl: projImg6,
-            link: "https://williamsgelo.github.io/live-user-filter"
+            imgUrl: projImg14,
+            link: "https://mordern-bank-ten.vercel.app"
         },
         {
             title: "Hacker News",

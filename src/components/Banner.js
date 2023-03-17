@@ -52,7 +52,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi! I'm Angelo`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                        <p>I strive to create responsive, mobile-friendly websites that are fast, reliable, and secure. My aim is to work collaboratively with the project team and stakeholders to identify requirements and provide solutions that meet business goals.
+                        <p>I strive to create responsive, mobile-friendly websites that are fast, reliable and secure. My aim is to work collaboratively with the project team and stakeholders to identify requirements and provide solutions that meet business goals.
                             Additionally, I aim to stay up-to-date with the latest web development technologies and trends to ensure that the applications I develop are efficient, maintanable and scalable.
                         </p>
                         <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
